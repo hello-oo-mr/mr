@@ -92,10 +92,33 @@
 > 순서없는 목록 ul (unordered list)
 > 순서있는 목록 ol( ordered list)
 > 목록 항목 li (List Item)
+
 ```
 <ul>
  <li>HTML</li>
  <li>CSS</li>
+</ul>
+```
+> 포함관계(nested)로 구성된 목록
+> - HTML
+>  - HTML4
+>  - HTML5
+> - CSS
+>  -CSS2
+>  -CSS3
+```
+<ul>
+<li>HTML
+<ul>
+<li>HTML4</li>
+<li>HTML5</li>
+</ul></li>
+
+<li>css
+<ul>
+<li>CSS2<li>
+<li>CSS3<li></ul>
+</li>
 </ul>
 ```
 > 설명목록(Description List) - dl
