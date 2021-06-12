@@ -108,16 +108,19 @@
 >  -CSS3
 ```
 <ul>
-<li>HTML
+<li>
+ HTML
+ <ul>
+  <li>HTML4</li>
+  <li>HTML5</li>
+ </ul>
+</li>
+<li>
+CSS
 <ul>
-<li>HTML4</li>
-<li>HTML5</li>
-</ul></li>
-
-<li>css
-<ul>
-<li>CSS2<li>
-<li>CSS3<li></ul>
+ <li>CSS2<li>
+ <li>CSS3<li>
+</ul>
 </li>
 </ul>
 ```
