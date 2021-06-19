@@ -176,3 +176,39 @@ CSS
 
 ```
 
+### video element
+
+>비디오 및 오디오 컨텐츠는 용량이 크기 때문에 서버에 저장을 해서 콘텐츠를 제공하면 많은 트래픽이 발생할 수 있다. 
+
+> 트래픽 과부하를 해결하기 위해서 유뷰브 서비스를 사용하기도 함
+
+>attribute 
+>controls: 컨트롤 버튼 표시
+>autoplay: 자동재생(* muted와 같이 사용해야함)
+>muted: 음소거
+>loop:반복재생
+
+```
+<video controls autoplay muted loop>
+  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+</video>
+```
+
+### Youtube 
+
+>비디오 콘텐츠 제공시 서버의 트래픽 과부하를 해결할 수 있는 방법 중 하나
+>매개변수
+>controls=1(컨트롤, 기본값), 0(컨트롤x)
+
+>autoplay=1, 0 (mute와 같이 사용)
+
+>mute=1,0
+>loop=1,0(playlist와 같이 사용)
+
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rwFZPEPbcpQ?controls=0&autoplay=1&mute=1&loop=1&playlist=rwFZPEPbcpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
+>텍스트는 HTML 문서에 직접 입력되는 콘텐츠
+>이미지와 동영상, 오디오 콘텐츠는 외부에서 만들어지는 콘텐츠
+>이미지, 동영상, 오디오는 직접 입력하는 것이 아니고 외부 파일을 삽입 =>embed 콘텐츠라고 한다. 
