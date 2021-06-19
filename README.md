@@ -164,4 +164,15 @@ CSS
 
 >https://www.tablesgenerator.com/html_tables : table generator 
  
+### Image element
+
+> Tag: img
+
+> attribute: src (이미지 위치, 파일명), alt(대체 텍스트)
+
+> 종료태그 없음
+```
+<img src="image.jpg" alt="대체">
+
+```
 
