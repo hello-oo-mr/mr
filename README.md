@@ -226,3 +226,23 @@ CSS
 >div(division)
 
 >span 
+
+### Block, Inline 
+
+> 모든 element는 각각의 고유 영역을 가지고 있음
+
+>Block element, Inline Element 구분은 이들 영역의 화면 표시 방식에 따른 구분 
+
+>block element는 줄바꿈되어 표시 - block element 영역의 가로 너비가 부모요소에 100% 채워짐
+>(**포함하는 요소 : 부모 요소, 포함되는 요소: 자식요소)
+
+>block element에는 위, 아래 여백을 적용할 수 있음
+
+>inline element는 같은 줄에 나란히 표시 - inline element 영역의 가로너비가 컨텐츠 크기만큼만 정해짐.
+
+>inline element는 위, 아래 여백을 적용할 수 없음
+
+
+
+
+
