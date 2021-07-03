@@ -264,15 +264,43 @@ CSS
 
 ### id, class
 > HTML element에 특정 이름을 사용할 때 id,class attribute를 사용해서 이름을 붙여줄 수 있음. 
+
 > id는 HTML 문서내에서 한번만 쓸 수 있음. 
+
 > class는 동일한 이름이 여러개의 element에 사용할 수 있음. -> 따라서, 공통 디자인 요소나 공통 기능을 적용할 수 있음.
-> id나 class 에 띄어쓰기로 여러개 이름을 줄 수 있음. ex) <p id="miri id"></p>, <p class="hello nice"</p>
+
+> id나 class 에 띄어쓰기로 여러개 이름을 줄 수 있음. 
+
+```
+> <p id="miri id"></p>
+<p class="hello nice"</p>
+```
 > id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용하는 경우 => 백앤드 개발에서 주로 사용
+
 > class는 주로 css 스타일 적용, javascript 인터렉션 적용할 때 사용   =>프론트 앤드 개발에서 주로 사용
+
 
 ### css 작성방법
 
 >External CSS: 파일 분리
+
 >Internel CSS: 같은 HTML 문서내에 head태그 영역에 style태그를 사용하여 입력
+
 >Inline CSS: 시작태그에 style attribute를 사용해서 입력 => javascript에서 css를 제어할때 사용. 
+
+### naming할 때 표기방식
+
+>id, class naming, 변수, 함수, naming, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용 
+>표기방식을 사용하는 이유
+> - naming 할 때 두 단어이상으로 구성되는 경우 단어와 단어 사이를 구분하기 위해 사용 
+> - 단어의 시작부분에 첫글자를 대문자로 변경, 특수 기호를 사용
+
+> 표기방식종류
+> snake case :gnb_depth1 =>파일/폴더
+> kebab case : gnb-depth1 =>id/class
+> camel case: gnbDepth1 =>javascript의 변수/함수
+> pascal case : GnbDepth1 =>javascript의 클래스
+> 
+
+
   
