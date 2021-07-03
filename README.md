@@ -270,3 +270,9 @@ CSS
 > id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용하는 경우 => 백앤드 개발에서 주로 사용
 > class는 주로 css 스타일 적용, javascript 인터렉션 적용할 때 사용   =>프론트 앤드 개발에서 주로 사용
 
+### css 작성방법
+
+>External CSS: 파일 분리
+>Internel CSS: 같은 HTML 문서내에 head태그 영역에 style태그를 사용하여 입력
+>Inline CSS: 시작태그에 style attribute를 사용해서 입력 => javascript에서 css를 제어할때 사용. 
+  
