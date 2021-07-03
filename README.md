@@ -260,5 +260,13 @@ CSS
 
 > 각 선언에는 콜론으로 구분된 CSS 속성(Property) 이름과 값(value)이 포합됩니다. 
 
-> 
+> 여러 css 선언은 세미콜론으로 구분되고 선언브록은 중괄호로 묶습니다. 
+
+### id, class
+> HTML element에 특정 이름을 사용할 때 id,class attribute를 사용해서 이름을 붙여줄 수 있음. 
+> id는 HTML 문서내에서 한번만 쓸 수 있음. 
+> class는 동일한 이름이 여러개의 element에 사용할 수 있음. -> 따라서, 공통 디자인 요소나 공통 기능을 적용할 수 있음.
+> id나 class 에 띄어쓰기로 여러개 이름을 줄 수 있음. ex) <p id="miri id"></p>, <p class="hello nice"</p>
+> id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용하는 경우 => 백앤드 개발에서 주로 사용
+> class는 주로 css 스타일 적용, javascript 인터렉션 적용할 때 사용   =>프론트 앤드 개발에서 주로 사용
 
