@@ -269,10 +269,11 @@ CSS
 
 > class는 동일한 이름이 여러개의 element에 사용할 수 있음. -> 따라서, 공통 디자인 요소나 공통 기능을 적용할 수 있음.
 
-> id나 class 에 띄어쓰기로 여러개 이름을 줄 수 있음. 
+> class는 하나의 HTML Element에 대해서 띄어쓰기로 여러개 이름을 줄 수 있음, html 문서내에서 고유해야 함. 
+
+>id는 하나의 HTML Element 에 대해서 하나의 이름만 존재, HTML 문서내에서 고유해야 함. 
 
 ```
-> <p id="miri id"></p>
 <p class="hello nice"</p>
 ```
 > id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용하는 경우 => 백앤드 개발에서 주로 사용
@@ -303,4 +304,27 @@ CSS
 > 
 
 
+  ### OOCSS(Object Oriented CSS)
   
+  >Html Element를 대상화시키는 과정에서 element 하나하나를 객체화 시키는 이론
+  
+  >html element 모두 id, class, attribute 사용해서 이름을 지정해줌
+  
+  ### web color
+  >color mode 
+  
+  > -가산 혼합(빛의 혼합) : RGB 컬러모드
+  
+  > 표현할 수 있는 색의 개수 
+  
+  > 1byte=8bit=256개(0~255)
+  
+  >RGB =>3byte =>24bit 트루컬러 :16777216가지 색
+
+  >색 표현 코드값
+  
+  >16진수(hex code): #AABA01
+  
+  >10진수: RGB(255,255,255)
+  >
+  > 
