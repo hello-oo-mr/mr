@@ -341,3 +341,34 @@ CSS
 >alpha : 추가 채널
 
 >opacity : 불투명도
+
+
+### TEXT CSS
+
+- color
+- text-align:left, center, right, justify
+- text-decoration:none, line-through, underline
+- text-transform: uppercase, lowercase, Capitalize(첫글자만 대문자로)
+- text-indent(들여쓰기): 20px / -20px 
+- letter-spacing(자간): 2px / -2px
+- line-height: 20px/ 1.8(배수의 형태로)
+- word-spacing(단어별로 띄어쓰기)
+- white-space: nowrap  ->줄바꿈 하지 않겠다.
+- text-shadow
+
+
+# font CSS
+- font-family : "Times New Roman", Times, serif; 폰트종류중에 띄어쓰기가 있는 경우에만 쌍따옴표로
+ - 순서대로 대체 폰트를 찾음
+ - sans-serif, serif, monospace, cursive, fantasy 5개의 기본 폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본적으로 사용됨
+ - 웹사이트에 사용하는 폰트는 웹폰트(서버에 폰트 파일을 저장해서 사용)로 사용하는데, 업로드된 파일을 직접 사용하는 경우, 웹폰트 서비스를 사용하는 경우 2가지가 있음
+ - 웹폰트 서비스의 2가지 있음
+ - 대표적인 웹폰트 서비스: 구글 폰트, 눈누
+- font-size
+- font-style : italic
+- font-weight : bold /500
+ - 폰트 굵기가 다양한 경우 숫자로 굵기를 표현
+
+-
+- 
+
