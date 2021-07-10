@@ -369,6 +369,11 @@ CSS
 - font-weight : bold /500
  - 폰트 굵기가 다양한 경우 숫자로 굵기를 표현
 
--
-- 
+### BOX Model
+>구성 요소
+> -width/height :너비/높이
+> -padding: 안쪽 여백
+> -border: 테두리
+> -margin: 바깥 여백
+
 
