@@ -503,3 +503,12 @@ background-position:left top;
 background-position: 100px 200px; (가로방향으로 100px 세로방향으로 200px위치에) 
 }
 ```
+>background-attachment
+>- 배경이미지를 고정시키는 기능(스크롤을 내려도) 
+
+>background 축약표현
+```
+background:#fff;
+background:url("image.jpg");
+
+```
