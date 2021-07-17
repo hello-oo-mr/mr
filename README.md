@@ -478,3 +478,10 @@ display:inline;
 <input type="button" value="확인버튼"> 
 <button type="button">확인버튼</button> 
 ```
+
+### 이미지 표현 방법
+> 콘텐츠로 표현
+> - img태그로 
+> 디자인 요소로 표현
+> -background-image
+> 
