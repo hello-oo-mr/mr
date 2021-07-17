@@ -398,3 +398,13 @@ CSS
 
 >### margin
 >padding과 사용방법이 같음
+
+### margin collapse
+> - 위 아래 인접하게 배치된 박스의 사이여백이 둘 중 큰 쪽으로만 적용되어 표현되는 현상
+
+### border
+> border :1px solid red; (=> 4방향 모두 적용) 
+> border-top :1px solid red; (=> top에만 적용) 
+> border-right
+> border-bottom
+> border-left
