@@ -379,4 +379,22 @@ CSS
 
 > -margin: 바깥 여백
 
+### width/height
+> width : 너비/가로길이
 
+> height : 높이/세로길이
+
+>auto :기본값
+>-block : 너비는 부모요소를 기준으로 채워짐./ 높이는 콘텐츠를 기준으로 맞춰짐
+>-inline: 너비 높이 둘다 콘텐츠 기준으로 맞춰짐. 
+
+### padding
+>안쪽 여백
+
+>padding : 10px 20px 30px 40px (시계방향 순, top, right,bottom, left)
+>padding : 10px 20px 30px(top, right/left, bottom)
+>padding : 10px 20px(top/bottom, right/left)
+>padding: 10px(top/right/bottom/left 모두)
+
+>### margin
+>padding과 사용방법이 같음
