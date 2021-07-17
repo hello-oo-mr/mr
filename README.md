@@ -484,4 +484,22 @@ display:inline;
 > - img태그로 
 > 디자인 요소로 표현
 > -background-image
-> 
+
+
+### background 
+>background-color
+
+>background-image
+
+> background-repeat
+> - repeat-x (가로만 반복) repeat-y(세로만 반복) no-repeat(반복없음)
+
+> background-position
+> -left, center, right/ top, center, bottom
+> -px 좌표 표시 할 수 있음
+```
+div{
+background-position:left top; 
+background-position: 100px 200px; (가로방향으로 100px 세로방향으로 200px위치에) 
+}
+```
