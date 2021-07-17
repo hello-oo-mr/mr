@@ -408,3 +408,15 @@ CSS
 > border-right
 > border-bottom
 > border-left
+
+### 가로배치
+
+※ inline요소는 박스 모델이 제대로 적용되지 않기 때문에 레이아웃 구성 요소로 사용하기 어렵다.  
+※ 따라서, block요소를 레이아웃 구성요소로 사용함. => 세로 배치는 기본 구성
+
+가로 배치 기법
+- float
+- flex
+- grid
+
+### float 
