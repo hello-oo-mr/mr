@@ -420,3 +420,43 @@ CSS
 - grid
 
 ### float 
+> float : left, float:right 부모요소를 기준으로 배치(왼쪽에 붙일건지, 오른쪽에 붙일건지)
+> 일반적으로 왼쪽을 기준으로 순서대로 배치할 때 float:left사용해서 배치
+
+> float 은 박스가 띄워지는 현상이 있으므로 인접해 있는 박스의 배치가 깨질 수 있다. 
+> float 박스를 부모요소로 감싸서(div태그) 인접해 있는 박스와 float박스를 감싸고 있는 부모요소와의 관계로 만들어준다.
+> float 박스를 감싸는 부모요소는 높이가 0이 될 수 있으므로, clear할 수 있는 비어있는 자식요소를 추가해준다. 
+```
+<html>
+<head>
+<style>
+img {
+float:left;
+}
+p{
+ background-color:pink;
+
+}
+
+div{
+border: 1px solid red;
+}
+.clearfix{
+clear:both;
+}
+</style>
+</head>
+
+<body>
+
+<div class="float-container>
+<img src="pineapple.jpg" alt="Pineapple" style="width:170px;height:170px;">
+<div class="clearfix"></div>
+</div>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. </p>
+
+</body>
+</html>
+
+```
