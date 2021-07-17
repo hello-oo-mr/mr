@@ -482,9 +482,13 @@ display:inline;
 ### 이미지 표현 방법
 > 콘텐츠로 표현
 > - img태그로 
+
 > 디자인 요소로 표현
 > -background-image
 
+> IR(Image Replacement) 기법
+> - HTML Element에는 텍스트로 표시
+> - 화면(브라우저)에 표시할때는 이미지로 표현
 
 ### background 
 >background-color
