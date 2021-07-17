@@ -466,4 +466,4 @@ display:inline;
 }
 => div : inline 속성으로 화면에 표시 
 ```
-> inline-block : inline 의 속성(한줄에 나란히 표시)과 block의 속성을 
+> inline-block : inline 의 속성(한 줄에 나란히 표시)과 block의 속성(박스모델 적용)을 모두 표시 
