@@ -467,3 +467,14 @@ display:inline;
 => div : inline 속성으로 화면에 표시 
 ```
 > inline-block : inline 의 속성(한 줄에 나란히 표시)과 block의 속성(박스모델 적용)을 모두 표시 
+
+### 폼 요소
+> 웸페이지에서 사용자 입력을 받을 사용하는 요소
+
+```
+<input type="text"> :일반 텍스트
+<input type="password"> : 비밀번호 입력 
+
+<input type="button" value="확인버튼"> 
+<button type="button">확인버튼</button> 
+```
