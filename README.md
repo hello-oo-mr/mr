@@ -430,12 +430,9 @@ CSS
 <html>
 <head>
 <style>
+
 img {
 float:left;
-}
-p{
- background-color:pink;
-
 }
 
 div{
@@ -448,15 +445,25 @@ clear:both;
 </head>
 
 <body>
-
 <div class="float-container>
 <img src="pineapple.jpg" alt="Pineapple" style="width:170px;height:170px;">
 <div class="clearfix"></div>
 </div>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. </p>
-
 </body>
 </html>
 
 ```
+
+### display 속성
+
+>요소의 기본속성을 변형하지 않고 화면에 표시되는 속성을 변형
+> block, inline, inline-block
+
+```div{
+display:inline;
+}
+=> div : inline 속성으로 화면에 표시 
+```
+> inline-block : inline 의 속성(한줄에 나란히 표시)과 block의 속성을 
