@@ -516,3 +516,34 @@ background:#fff;
 background:url("image.jpg");
 
 ```
+
+## 반응형 웹
+
+> OSMU(One Source Multi Use)
+>  - One Source: Html
+>  - Multi use: CSS, Javascript
+
+> 변경점(break point)
+> - 기준 해상도를 설정하고 범위 구간으로 설정
+
+> @media
+```
+@media 디바이스 and (구간 해상도){
+디바이스 스타일
+}
+
+@media screen and (max-width:300px){}
+@media screen and (min-width:300px){}
+
+// 독립된 구간으로 설정
+@media screen and (min-width:360px) and (max-width:700px){
+/* 스마트폰 css*/ } 
+@media screen and (min-width:701px) and (max-width:1920px){
+/* pc css */} 
+
+// 포함된 구간으로 설정
+/*pc css */
+@media screen and (max-width:700px){
+/*스마트폰 css*/}
+
+```
