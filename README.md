@@ -547,3 +547,22 @@ background:url("image.jpg");
 /*스마트폰 css*/}
 
 ```
+
+### Javascript
+
+### DOM
+
+### Event 
+> 상황 변화에 따라 발생되는 신호
+
+### EVent 발생
+- Event 감지: 종류, 상황
+- 감지한 event에 맞는 기능, 동작 실행 
+-
+> Event 종류
+> -Mouse Event : click, mouse over, mouse out
+> - Keyvord Event: key 입력
+
+> Event 감지 함수
+> - javascript: addEventListener()
+> - jquery: on()
